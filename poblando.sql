@@ -35,9 +35,9 @@ INSERT INTO products VALUES (2,2,2,2,'Jean',100.000,'T');
 
 -- ---------------- DESCUENTOS ------------------------------------------------------------------------
 
-INSERT INTO discounts VALUES (1,1,1523664000,1524873600,333,'descuento bayer',150.000);
+INSERT INTO discounts VALUES (1,1,'20180101','20180430',333,'descuento bayer',150.000);
 
-INSERT INTO discounts VALUES (2,2,1523664000,1524873600,50,'descuento jean hombre',80.000);
+INSERT INTO discounts VALUES (2,2,'20180101','20180430',50,'descuento jean hombre',80.000);
 
 
 -- -------------------- HISTORIAL DE DESCUENTOS---------------------------------------------------------
