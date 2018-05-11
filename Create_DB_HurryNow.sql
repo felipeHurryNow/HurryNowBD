@@ -33,10 +33,11 @@ CREATE TABLE products (
     id_product          int(16)         NOT NULL,
     id_store            int(16)         NOT NULL,
     id_branch_office    int(16)         NOT NULL,
-    id_product_category int(16)     NOT NULL,
+    id_product_category int(16)     	NOT NULL,
     description         varchar(240)    NOT NULL,
-    price              decimal(13,2)       NOT NULL,
-    enable_discount      tinyint(1)      NOT NULL,
+    price               decimal(13,2)   NOT NULL,
+    enable_discount     tinyint(1)      NOT NULL,
+    image_product	varchar(1000000)   NOT NULL, 
     CONSTRAINT products_pk PRIMARY KEY (id_product, id_store)
 )ENGINE=InnoDB;
 
