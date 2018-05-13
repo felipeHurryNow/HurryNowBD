@@ -15,15 +15,15 @@ INSERT INTO products_category VALUES (2,'Ropa femenina');
 
 
 -- ---------------- stores ------------------------------------------------------------------------
-INSERT INTO stores VALUES (1,1,'ADIDAS', 'cc santa fe');
+INSERT INTO stores VALUES (1,1,'ADIDAS', 1);
 
 
-INSERT INTO stores VALUES (2,2,'ZARA', 'cc titan plaza');
+INSERT INTO stores VALUES (2,2,'ZARA', 2);
 
 -- --------------branch_offices --------------------------------------------------------------------
-INSERT INTO branch_offices VALUES (1,1,'Avenida Carrera 45 #185, Bogotá','L-203','2334567', -74.1093, 4.6532,'8:30 am a 8:00 pm');
+INSERT INTO branch_offices VALUES (1,1,'cc santa fe','Avenida Carrera 45 #185, Bogotá','L-203','2334567', -74.1093, 4.6532,'8:30 am a 8:00 pm');
 
-INSERT INTO branch_offices VALUES (2,2,'Av. Boyacá #80-94, Bogotá','L-122','3567832', -74.0871, 4.6955,'10:30 am a 10:00 pm');
+INSERT INTO branch_offices VALUES (2,2,'cc titan plaza', 'Av. Boyacá #80-94, Bogotá','L-122','3567832', -74.0871, 4.6955,'10:30 am a 10:00 pm');
 
 
 -- --------------- PRODUCTO ---------------------------------------------------------------------------

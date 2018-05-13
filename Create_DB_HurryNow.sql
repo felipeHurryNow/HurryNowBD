@@ -3,6 +3,7 @@
 CREATE TABLE branch_offices (
     id_branch_office   int(16)         NOT NULL,
     id_store           int(16)         NOT NULL,
+    name	       varchar(60)     NOT NULL,
     address            varchar(60)     NOT NULL,
     local              varchar(6)      NOT NULL,
     phone              varchar(13)     NOT NULL,
@@ -17,7 +18,7 @@ CREATE TABLE stores (
     id_store            int(16)         NOT NULL,
     id_store_category   int(16)         NOT NULL,
     name                varchar(50)     NOT NULL,
-    branch_office       varchar(1000)   NOT NULL,
+    id_branch_office    int(16)		NOT NULL,
     CONSTRAINT stores_pk PRIMARY KEY (id_store)
 )ENGINE=InnoDB;
 
