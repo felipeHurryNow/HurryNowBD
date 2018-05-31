@@ -19,6 +19,7 @@ CREATE TABLE stores (
     id_store_category   int(16)         NOT NULL,
     name                varchar(50)     NOT NULL,
     id_branch_office    int(16)		NOT NULL,
+    image_store		varchar(1000000)   NOT NULL,
     CONSTRAINT stores_pk PRIMARY KEY (id_store)
 )ENGINE=InnoDB;
 
